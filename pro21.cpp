@@ -7,12 +7,12 @@ int main(){
 
     int i = 0;
     while(i < n){
-        int space = i;
+        int space = n-i-1;
         while (space > 0){
             cout << " ";
             space--;
         }
-        int j = i;
+        int j = n-i-1;
         while (j < n)
         {
             /* code */
