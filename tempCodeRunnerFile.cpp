@@ -1,1 +1,2 @@
-int count = 1;
+
+            cout << "*";
