@@ -1,18 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    
+int main()
+{
 
-    int a, b = 1;
-    a = 10;
-    if (++a){
-        cout << b;
-    }
-    else
+    int n;
+    cin >> n;
+    int a = 0, b = 1;
+    cout << a << " ";
+    cout << b << " ";
+
+    for (int i = 0; i < n - 2; i++)
     {
-        cout << ++b;
+        int sum = a + b;
+
+        cout << sum << " ";
+        a = b;
+        b = sum;
     }
-    
-    
 }
