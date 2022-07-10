@@ -26,7 +26,7 @@ int main(){
 
     case '/':
         cout << a / b;
-        break;
+        break;s
 
     case '%':
         cout << a % b;
