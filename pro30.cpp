@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arr[4] = {4, 12, 8, 10};
+    int arr[5] = {1,2,3,4,5};
     int size = sizeof(arr) / sizeof(int);
     // by using a new array
     // int rev_arr[size];
