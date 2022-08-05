@@ -12,22 +12,22 @@ public:
     bool ispalindrome(int n)
     {
         string s = to_string(n);
-        for (int i = 0; i <= s.length() / 2; i++)
+        for (int i = 0; i < s.length(); i++)
         {
             if (s[i] != s[s.length() - 1 - i])
                 return 0;
         }
         return 1;
     }
-
+ 
     int PalinArray(int a[], int n)
     {
         bool flag = true;
         for (int i = 0; i <= to_string(n).length(); i++)
         {
-            if (ispalindrome(i) == 0)
+            if (ispalindrome(a[i]) == 0)
                 flag = 0;
-            cout << flag << endl;
+            // cout << flag << endl;
         }
         if (flag == 0)
             return 0;
