@@ -24,7 +24,7 @@ int main()
             ans.push_back(arr[i][ec]);
             c++;
         }
-        ec++;
+        ec--;
         for (int i = ec; c < total && i >= sc; i--)
         {
             cout << arr[sr][i] << " ";
@@ -38,7 +38,7 @@ int main()
             ans.push_back(arr[i][sc]);
             c++;
         }
-        sc--;
+        sc++;
         
     }
     
