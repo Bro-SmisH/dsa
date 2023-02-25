@@ -1,39 +1,32 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <map>
 #include <vector>
 #include <fstream>
 #include <cstdlib>
+using namespace std;
 
-int processArray(std::vector<int> &array) {
-  /* 
-   * Do not make any changes outside this function.
-   *
-   * Modify this function to process `array` as indicated
-   * in the question. At the end, return the length of the
-   * array.
-   *
-   * Do not print anything in this function
-   * Do not write anything to the standard output
-   *
-   * Submit this entire program (not just this function)
-   * as your answer
-   */
-  
-  return array.size();
+bool func()
+{
+  return false;
 }
 
-int main(void) {
-  std::vector<int> array;
-  int val;
-  while (std::cin >> val) {
-    if (val < 0) break;
-    array.push_back(val);
+int main() {
+  // std::vector<int> array;
+  // int val;
+  // while (std::cin >> val) {
+  //   if (val < 0) break;
+  //   array.push_back(val);
+  // }
+  // int new_len = processArray(array);
+  // for(std::vector<int>::iterator a = array.begin(); a != array.end(); a++) {
+  //   std::cout << *a << std::endl;
+  // }
+  while (1)
+  {
+    /* code */
+    func();
   }
-  int new_len = processArray(array);
-  for(std::vector<int>::iterator a = array.begin(); a != array.end(); a++) {
-    std::cout << *a << std::endl;
-  }
-  return 0;
+  
 }
 
