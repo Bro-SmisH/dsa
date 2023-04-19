@@ -46,5 +46,5 @@
         "typeinfo": "cpp",
         "*.exe": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve"
 }
